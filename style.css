@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: #332541;
+    background: #332541;
     color: #fff;
     font-weight: 500;
     display: flex;
@@ -19,9 +19,9 @@ body{
 main{
     width: 50vw;
     display: flex;
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
 
 main h1{
@@ -123,22 +123,23 @@ main form input[type="submit"]:hover{
     background: #5952d4;
 }
 
-section.il{
-    display: flex;
-}
-section.il img{
-    width: 70%;
+section.fortin{
     display: flex;
     align-items: flex-end;
+    justify-content: flex-end;
+    padding: 3rem;
+}
+section.fortin img{
+    width: 80%;
 }
 
-section.il .circle{
+section.fortin .circle{
     position: absolute;
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
-    background: linear-gradient(45deg, #E8CBC0, #636FA4);
-    clip-path: circle(40% at right 105%);
+    background: linear-gradient(45deg, #e3b6eb, #636FA4);
+    clip-path: circle(50% at right 110%);
     z-index: -1;
 }
